@@ -1,0 +1,1 @@
+2024-10-28 16:00:58,404 INFO  org.refactoringminer.rm1.GitHistoryRefactoringMinerImpl.detect(GitHistoryRefactoringMinerImpl.java:133) - Analyzed 567RatTest [Commits: 0, Errors: 0, Refactorings: 0]
