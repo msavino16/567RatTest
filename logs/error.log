@@ -1,0 +1,1 @@
+2024-10-28 15:57:31,204 ERROR Project.Utils.GenerateJsonFiles.generateJson(GenerateJsonFiles.java:66) - Cannot invoke "String.toCharArray()" because "revstr" is null

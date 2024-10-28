@@ -1,0 +1,214 @@
+////
+   Licensed to the Apache Software Foundation (ASF) under one
+   or more contributor license agreements.  See the NOTICE file
+   distributed with this work for additional information
+   regarding copyright ownership.  The ASF licenses this file
+   to you under the Apache License, Version 2.0 (the
+   "License"); you may not use this file except in compliance
+   with the License.  You may obtain a copy of the License at
+
+     https://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing,
+   software distributed under the License is distributed on an
+   "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+   KIND, either express or implied.  See the License for the
+   specific language governing permissions and limitations
+   under the License.
+////
+
+= Ivy Release Announcement
+
+XXXX Date XXXX - The Apache Ivy project is pleased to announce its 2.5.3 release.
+
+== What is Ivy?
+Apache Ivy is a tool for managing (recording, tracking, resolving and reporting) project dependencies, characterized by flexibility,
+configurability, and tight integration with link:https://ant.apache.org/[Apache Ant].
+
+== Download
+You can download this release at link:https://ant.apache.org/ivy/download.cgi[]
+
+Issues should either be discussed in the link:https://ant.apache.org/ivy/mailing-lists.html[Ivy user mailing list] or reported at link:https://issues.apache.org/jira/browse/IVY[]
+
+More information about the project can be found on the website link:https://ant.apache.org/ivy/[]
+
+== Key features in this release
+
+Key features of this 2.5.3 release are:
+
+== List of Changes in this Release
+
+For details about the following changes, check our JIRA install at link:https://issues.apache.org/jira/browse/IVY[]
+
+*List of changes since Ivy 2.5.2:*
+
+- FIX: trying to set safe XML features causes SAXExceptions when used with certain XML parsers (jira:IVY-1647[])
+- FIX: some unit tests failed on Java 8 (jira:IVY-1648[]) (Thanks to Adrien Piquerez)
+
+////
+ Samples :
+- NEW: bla bla bla (jira:IVY-1234[]) (Thanks to Jane Doe)
+- IMPROVEMENT: bla bla bla (jira:IVY-1234[]) (Thanks to Jane Doe)
+- FIX: bla bla bla (jira:IVY-1234[]) (Thanks to Jane Doe)
+- DOCUMENTATION: bla bla bla (jira:IVY-1234[]) (Thanks to Jane Doe)
+////
+
+== Committers and Contributors
+
+Here is the list of people who have contributed source code and documentation up to this release. Many thanks to all of them, and also to the whole IvyDE community contributing ideas and feedback, and promoting the use of Apache Ivy !
+
+*Committers:*
+
+* Matt Benson
+* Jean-Louis Boudart
+* Maarten Coene
+* Charles Duffy
+* Gintautas Grigelionis
+* Xavier Hanin
+* Nicolas Lalev&eacute;e
+* Jan Mat&egrave;rne 
+* Jaikiran Pai
+* Jon Schneider
+* Gilles Scokart
+* Stefan Bodewig
+
+*Contributors:*
+
+* Ingo Adler
+* Mathieu Anquetin
+* Arseny Aprelev
+* Andreas Axelsson
+* St&eacute;phane Bailliez
+* Karl Baum
+* Andrew Bernhagen
+* Mikkel Bjerg
+* Per Arnold Blaasmo
+* Jeffrey Blattman
+* Jasper Blues
+* Jim Bonanno
+* Joseph Boyd
+* Dave Brosius
+* Matthieu Brouillard
+* Carlton Brown
+* Mirko Bulovic
+* Ed Burcher
+* Jamie Burns
+* Wei Chen
+* Chris Chilvers
+* Kristian Cibulskis
+* Andrea Bernardo Ciddio
+* Archie Cobbs
+* Flavio Coutinho da Costa
+* Stefan De Boey
+* Mykhailo Delegan
+* Charles Duffy
+* Martin Eigenbrodt
+* Alexandr Esaulov
+* Stephen Evanchik
+* Stephan Feder
+* Robin Fernandes
+* Gregory Fernandez
+* Danno Ferrin
+* Riccardo Foschia
+* Benjamin Francisoud
+* Wolfgang Frank
+* Jacob Grydholt Jensen
+* John Gibson
+* Mitch Gitman
+* Evgeny Goldin
+* Scott Goldstein
+* Stephen Haberman
+* Aaron Hachez
+* Ben Hale
+* Peter Hayes
+* Scott Hebert
+* Payam Hekmat
+* Tobias Himstedt
+* Achim Huegen
+* Pierre H&auml;gnestrand
+* Matt Inger
+* Anders Jacobsson
+* Anders Janmyr
+* Steve Jones
+* Christer Jonsson
+* Michael Kebe
+* Matthias Kilian
+* Alexey Kiselev
+* Gregory Kisling
+* Stepan Koltsov
+* Heschi Kreinick
+* Sebastian Krueger
+* Thomas Kurpick
+* Costin Leau
+* Ilya Leoshkevich
+* Tat Leung
+* Antoine Levy-Lambert
+* Tony Likhite
+* Andrey Lomakin
+* William Lyvers
+* Sakari Maaranen
+* Jan Materne
+* Markus M. May
+* Abel Muino
+* J. Lewis Muir
+* Stephen Nesbitt
+* Joshua Nichols
+* Bernard Niset
+* Ales Nosek
+* David Maplesden
+* Glen Marchesani
+* Phil Messenger
+* Steve Miller
+* Mathias Muller
+* Randy Nott
+* Peter Oxenham
+* Douglas Palmer
+* Thomas Pasch
+* Jesper Pedersen
+* Emmanuel Pellereau
+* Greg Perry
+* Carsten Pfeiffer
+* Yanus Poluektovich
+* Roshan Punnoose
+* Aur&eacute;lien Pupier
+* Jean-Baptiste Quenot
+* Carl Quinn
+* Damon Rand
+* Geoff Reedy
+* Torkild U. Resheim
+* Christian Riege
+* Frederic Riviere
+* Jens Rohloff
+* Andreas Sahlbach
+* Brian Sanders
+* Adrian Sandor
+* Michael Scheetz
+* Ben Schmidt
+* Ruslan Shevchenko
+* John Shields
+* Nihal Sinha
+* Gene Smith
+* Michal Srb
+* Colin Stanfill
+* Simon Steiner
+* Johan Stuyts
+* John Tinetti
+* Erwin Tratar
+* Jason Trump
+* David Turner
+* Ernestas Vaiciukevi&ccaron;ius
+* Tjeerd Verhagen
+* Willem Verstraeten
+* Richard Vowles
+* Sven Walter
+* Zhong Wang
+* James P. White
+* Tom Widmer
+* John Williams
+* Chris Wood
+* Patrick Woodworth
+* Jaroslaw Wypychowski
+* Sven Zethelius
+* Aleksey Zhukov
+* Jason A. Guild
+* Berno Langer
